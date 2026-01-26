@@ -32,8 +32,8 @@
         "Verify in browser using dev-browser skill"
       ],
       "priority": 2,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Header.tsx created with sticky nav, hamburger menu, all links"
     },
     {
       "id": "US-003",
@@ -48,8 +48,8 @@
         "Verify in browser using dev-browser skill"
       ],
       "priority": 3,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Footer.tsx with contact email, nav links, Code Club link, social placeholders"
     },
     {
       "id": "US-004",
@@ -63,8 +63,8 @@
         "Verify in browser using dev-browser skill"
       ],
       "priority": 4,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Layout wraps pages with flex column, Header/Footer included"
     },
     {
       "id": "US-005",
