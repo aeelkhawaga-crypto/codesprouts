@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -9,18 +10,28 @@ export const metadata: Metadata = {
 export default function ClubsPage() {
   return (
     <div className="py-16">
-      <div className="mx-auto max-w-4xl px-4">
-        <h1 className="text-4xl font-bold text-gray-900">Coding Clubs</h1>
-
-        <p className="mt-6 text-xl text-gray-600 leading-relaxed">
-          Our coding clubs are free, community-run sessions where children can explore
-          programming at their own pace. With the support of volunteer mentors, kids
-          work on projects that interest them—from games and animations to websites
-          and apps.
-        </p>
+      <div className="mx-auto max-w-6xl px-4">
+        {/* Hero */}
+        <div className="grid gap-12 md:grid-cols-2 items-center">
+          <div>
+            <h1 className="text-4xl font-bold text-gray-900">Coding Clubs</h1>
+            <p className="mt-6 text-xl text-gray-600 leading-relaxed">
+              Our coding clubs are free, community-run sessions where children can explore
+              programming at their own pace with the support of volunteer mentors.
+            </p>
+          </div>
+          <div className="relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-lg">
+            <Image
+              src="/1707415013354.jpeg"
+              alt="Kids at a CodeSprouts coding club"
+              fill
+              className="object-cover"
+            />
+          </div>
+        </div>
 
         {/* What is a Coding Club */}
-        <section className="mt-12">
+        <section className="mt-16">
           <h2 className="text-2xl font-bold text-gray-900">What is a Coding Club?</h2>
           <p className="mt-4 text-lg text-gray-600 leading-relaxed">
             A coding club is an informal, drop-in session where young people come together
@@ -76,6 +87,16 @@ export default function ClubsPage() {
             </li>
           </ul>
         </section>
+
+        {/* Photo */}
+        <div className="mt-12 relative h-64 rounded-2xl overflow-hidden shadow-lg">
+          <Image
+            src="/1713040935462.jpeg"
+            alt="Coding club session in action"
+            fill
+            className="object-cover"
+          />
+        </div>
 
         {/* Clubs vs Classes */}
         <section className="mt-12">

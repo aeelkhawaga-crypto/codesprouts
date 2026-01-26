@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -9,11 +10,24 @@ export const metadata: Metadata = {
 export default function CodeSproutsCoderDojoPage() {
   return (
     <div className="py-16">
-      <div className="mx-auto max-w-4xl px-4">
-        <h1 className="text-4xl font-bold text-gray-900">Code Sprouts CoderDojo</h1>
-        <p className="mt-4 text-xl text-gray-600">
-          Community coding club for kids, supported by volunteers.
-        </p>
+      <div className="mx-auto max-w-6xl px-4">
+        {/* Hero */}
+        <div className="grid gap-12 md:grid-cols-2 items-center">
+          <div>
+            <h1 className="text-4xl font-bold text-gray-900">Code Sprouts CoderDojo</h1>
+            <p className="mt-4 text-xl text-gray-600">
+              Community coding club for kids, supported by volunteers.
+            </p>
+          </div>
+          <div className="relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-lg">
+            <Image
+              src="/1719079747026.jpeg"
+              alt="Code Sprouts CoderDojo session"
+              fill
+              className="object-cover"
+            />
+          </div>
+        </div>
 
         {/* Club Info */}
         <section className="mt-12 grid gap-6 md:grid-cols-2">
@@ -92,6 +106,16 @@ export default function CodeSproutsCoderDojoPage() {
             </li>
           </ul>
         </section>
+
+        {/* Photo */}
+        <div className="mt-12 relative h-64 rounded-2xl overflow-hidden shadow-lg">
+          <Image
+            src="/1740999998034.jpeg"
+            alt="Kids at CoderDojo"
+            fill
+            className="object-cover"
+          />
+        </div>
 
         {/* Who Can Attend */}
         <section className="mt-12">

@@ -62,9 +62,8 @@ export default function ContactPage() {
                   id="name"
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  className={`mt-2 block w-full rounded-lg border px-4 py-3 text-gray-900 ${
-                    errors.name ? "border-red-500" : "border-gray-300"
-                  } focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20`}
+                  className={`mt-2 block w-full rounded-lg border px-4 py-3 text-gray-900 ${errors.name ? "border-red-500" : "border-gray-300"
+                    } focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20`}
                   placeholder="Your name"
                 />
                 {errors.name && (
@@ -81,9 +80,8 @@ export default function ContactPage() {
                   id="email"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  className={`mt-2 block w-full rounded-lg border px-4 py-3 text-gray-900 ${
-                    errors.email ? "border-red-500" : "border-gray-300"
-                  } focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20`}
+                  className={`mt-2 block w-full rounded-lg border px-4 py-3 text-gray-900 ${errors.email ? "border-red-500" : "border-gray-300"
+                    } focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20`}
                   placeholder="your@email.com"
                 />
                 {errors.email && (
@@ -100,9 +98,8 @@ export default function ContactPage() {
                   rows={5}
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  className={`mt-2 block w-full rounded-lg border px-4 py-3 text-gray-900 ${
-                    errors.message ? "border-red-500" : "border-gray-300"
-                  } focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20`}
+                  className={`mt-2 block w-full rounded-lg border px-4 py-3 text-gray-900 ${errors.message ? "border-red-500" : "border-gray-300"
+                    } focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20`}
                   placeholder="How can we help you?"
                 />
                 {errors.message && (
@@ -138,25 +135,12 @@ export default function ContactPage() {
                 <h3 className="font-semibold text-gray-900">Follow Us</h3>
                 <div className="mt-2 flex gap-4">
                   <a
-                    href="#"
-                    className="text-gray-600 hover:text-emerald-600 transition-colors"
-                    aria-label="Twitter"
-                  >
-                    Twitter
-                  </a>
-                  <a
-                    href="#"
+                    href="https://www.facebook.com/profile.php?id=61551944964126"
                     className="text-gray-600 hover:text-emerald-600 transition-colors"
                     aria-label="Facebook"
+                    target="_blank"
                   >
                     Facebook
-                  </a>
-                  <a
-                    href="#"
-                    className="text-gray-600 hover:text-emerald-600 transition-colors"
-                    aria-label="Instagram"
-                  >
-                    Instagram
                   </a>
                 </div>
               </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const navLinks = [
@@ -15,7 +16,16 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-3">
           {/* Brand */}
           <div>
-            <h3 className="text-xl font-bold text-emerald-400">CodeSprouts</h3>
+            <div className="flex items-center gap-2">
+              <Image
+                src="/logo.png"
+                alt="CodeSprouts Logo"
+                width={32}
+                height={32}
+                className="h-8 w-auto"
+              />
+              <h3 className="text-xl font-bold text-emerald-400">CodeSprouts</h3>
+            </div>
             <p className="mt-2 text-gray-400">
               Community coding clubs and classes for children aged 6-16.
             </p>
@@ -62,16 +72,8 @@ export default function Footer() {
               >
                 Code Club
               </a>
-              {/* Social media placeholders */}
               <a
-                href="#"
-                className="text-gray-400 hover:text-emerald-400 transition-colors"
-                aria-label="Twitter"
-              >
-                Twitter
-              </a>
-              <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61551944964126"
                 className="text-gray-400 hover:text-emerald-400 transition-colors"
                 aria-label="Facebook"
               >

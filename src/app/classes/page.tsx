@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -9,18 +10,28 @@ export const metadata: Metadata = {
 export default function ClassesPage() {
   return (
     <div className="py-16">
-      <div className="mx-auto max-w-4xl px-4">
-        <h1 className="text-4xl font-bold text-gray-900">Coding Classes</h1>
-
-        <p className="mt-6 text-xl text-gray-600 leading-relaxed">
-          CodeSprouts offers structured coding classes and workshops designed to take
-          children from complete beginners to confident coders. Our classes provide
-          more focused instruction than our drop-in clubs, perfect for kids who want
-          to dive deeper into specific topics.
-        </p>
+      <div className="mx-auto max-w-6xl px-4">
+        {/* Hero */}
+        <div className="grid gap-12 md:grid-cols-2 items-center">
+          <div>
+            <h1 className="text-4xl font-bold text-gray-900">Coding Classes</h1>
+            <p className="mt-6 text-xl text-gray-600 leading-relaxed">
+              CodeSprouts offers structured coding classes and workshops designed to take
+              children from complete beginners to confident coders.
+            </p>
+          </div>
+          <div className="relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-lg">
+            <Image
+              src="/1740999998034.jpeg"
+              alt="Kids in a coding class"
+              fill
+              className="object-cover"
+            />
+          </div>
+        </div>
 
         {/* Age Ranges */}
-        <section className="mt-12">
+        <section className="mt-16">
           <h2 className="text-2xl font-bold text-gray-900">Who Can Attend?</h2>
           <p className="mt-4 text-lg text-gray-600">
             Our classes are designed for children aged <strong>6 to 16</strong>. We group
@@ -74,6 +85,16 @@ export default function ClassesPage() {
             </li>
           </ul>
         </section>
+
+        {/* Photo break */}
+        <div className="mt-12 relative h-64 rounded-2xl overflow-hidden shadow-lg">
+          <Image
+            src="/1740999998069.jpeg"
+            alt="CodeSprouts workshop in progress"
+            fill
+            className="object-cover"
+          />
+        </div>
 
         {/* Schedule Note */}
         <section className="mt-12 rounded-2xl bg-amber-50 p-6">
