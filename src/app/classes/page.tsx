@@ -22,7 +22,7 @@ export default function ClassesPage() {
           </div>
           <div className="relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src="/1740999998034.jpeg"
+              src="/img0.png"
               alt="Kids in a coding class"
               fill
               className="object-cover"

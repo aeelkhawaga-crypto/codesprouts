@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-emerald-500 to-teal-600 text-white">
+      <section className="bg-gradient-to-br from-emerald-200 to-teal-600 text-white">
         <div className="mx-auto max-w-6xl px-4 py-20 text-center">
           <Image
             src="/logo.png"
@@ -14,9 +14,6 @@ export default function Home() {
             height={120}
             className="mx-auto h-28 w-auto"
           />
-          <h1 className="mt-6 text-4xl font-extrabold sm:text-5xl md:text-6xl">
-            CodeSprouts
-          </h1>
           <p className="mx-auto mt-6 max-w-2xl text-xl sm:text-2xl">
             Inspiring the next generation of creators through fun, hands-on coding experiences.
           </p>
@@ -56,7 +53,7 @@ export default function Home() {
             </div>
             <div className="relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="/1740999998034.jpeg"
+                src="/img1.png"
                 alt="Kids learning to code at CodeSprouts"
                 fill
                 className="object-cover"

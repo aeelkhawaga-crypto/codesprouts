@@ -28,9 +28,6 @@ export default function Header() {
               height={40}
               className="h-10 w-auto"
             />
-            <span className="text-2xl font-bold text-emerald-600">
-              CodeSprouts
-            </span>
           </Link>
 
           {/* Desktop Navigation */}

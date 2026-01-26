@@ -110,7 +110,7 @@ export default function CodeSproutsCoderDojoPage() {
         {/* Photo */}
         <div className="mt-12 relative h-64 rounded-2xl overflow-hidden shadow-lg">
           <Image
-            src="/1740999998034.jpeg"
+            src="/img1.png"
             alt="Kids at CoderDojo"
             fill
             className="object-cover"
