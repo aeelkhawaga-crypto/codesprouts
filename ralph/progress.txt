@@ -1,0 +1,15 @@
+# Ralph Progress Log
+# Project: CodeSprouts Static Website Redesign
+# Branch: ralph/static-website-redesign
+# Started: 2026-01-26
+
+## Iteration 1
+
+### US-001: Initialize Next.js project - PASSED
+- Next.js 16.1.5 with App Router initialized
+- Static export configured in next.config.ts
+- Tailwind CSS v4 installed and configured
+- Nunito font set up for readability
+- Dev server runs successfully
+- TypeScript typecheck passes
+
