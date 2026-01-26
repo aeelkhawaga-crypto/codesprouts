@@ -22,7 +22,7 @@ export default function ClassesPage() {
           </div>
           <div className="relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src="/img0.png"
+              src="img0.png"
               alt="Kids in a coding class"
               fill
               className="object-cover"
@@ -89,7 +89,7 @@ export default function ClassesPage() {
         {/* Photo break */}
         <div className="mt-12 relative h-64 rounded-2xl overflow-hidden shadow-lg">
           <Image
-            src="/1740999998069.jpeg"
+            src="1740999998069.jpeg"
             alt="CodeSprouts workshop in progress"
             fill
             className="object-cover"
