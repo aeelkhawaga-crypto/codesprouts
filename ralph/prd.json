@@ -80,8 +80,8 @@
         "Verify in browser using dev-browser skill"
       ],
       "priority": 5,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Hero with gradient background, headline, subheading, two CTA buttons"
     },
     {
       "id": "US-006",
@@ -96,8 +96,8 @@
         "Verify in browser using dev-browser skill"
       ],
       "priority": 6,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Intro, What We Offer (3 cards), Why CodeSprouts (3 bullet points)"
     },
     {
       "id": "US-007",
@@ -114,8 +114,8 @@
         "Verify in browser using dev-browser skill"
       ],
       "priority": 7,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "About page with all sections, metadata set"
     },
     {
       "id": "US-008",
@@ -132,8 +132,8 @@
         "Verify in browser using dev-browser skill"
       ],
       "priority": 8,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Classes page with topics, age ranges, schedule note, CTA"
     },
     {
       "id": "US-009",
@@ -149,8 +149,8 @@
         "Verify in browser using dev-browser skill"
       ],
       "priority": 9,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Clubs page with explanation, how clubs work, comparison table, link to detail"
     },
     {
       "id": "US-010",
@@ -172,8 +172,8 @@
         "Verify in browser using dev-browser skill"
       ],
       "priority": 10,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Club detail page with all info, what to bring, who can attend, CTAs, Code Club link"
     },
     {
       "id": "US-011",
@@ -190,8 +190,8 @@
         "Verify in browser using dev-browser skill"
       ],
       "priority": 11,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Contact page with form, validation, mailto submission, social links"
     },
     {
       "id": "US-012",
@@ -207,8 +207,8 @@
         "Verify in browser using dev-browser skill"
       ],
       "priority": 12,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Emerald color scheme, rounded-full/rounded-2xl, Tailwind responsive classes, hamburger menu"
     }
   ]
 }
