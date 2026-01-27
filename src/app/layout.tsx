@@ -14,11 +14,7 @@ export const metadata: Metadata = {
   title: "CodeSprouts - Coding for Kids",
   description: "Community coding clubs and classes for children aged 6-16. Learn to code with fun and creativity!",
   icons: {
-    icon: [
-      { url: "/favicon.ico" },
-      { url: "/favicon.ico", sizes: "16x16", type: "image/x-icon" },
-      { url: "/favicon.ico", sizes: "32x32", type: "image/x-icon" },
-    ],
+    icon: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
 };
