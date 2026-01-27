@@ -22,7 +22,7 @@ export default function ClubsPage() {
           </div>
           <div className="relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src="/1707415013354.jpeg"
+              src="1707415013354.jpeg"
               alt="Kids at a CodeSprouts coding club"
               fill
               className="object-cover"
@@ -91,7 +91,7 @@ export default function ClubsPage() {
         {/* Photo */}
         <div className="mt-12 relative h-64 rounded-2xl overflow-hidden shadow-lg">
           <Image
-            src="/1713040935462.jpeg"
+            src="1713040935462.jpeg"
             alt="Coding club session in action"
             fill
             className="object-cover"

@@ -8,7 +8,7 @@ export default function Home() {
       <section className="bg-gradient-to-br from-emerald-200 to-teal-600 text-white">
         <div className="mx-auto max-w-6xl px-4 py-20 text-center">
           <Image
-            src="/logo.png"
+            src="logo.png"
             alt="CodeSprouts Logo"
             width={120}
             height={120}
@@ -53,7 +53,7 @@ export default function Home() {
             </div>
             <div className="relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="/img1.png"
+                src="img1.png"
                 alt="Kids learning to code at CodeSprouts"
                 fill
                 className="object-cover"
@@ -112,7 +112,7 @@ export default function Home() {
           <div className="mt-12 grid gap-4 grid-cols-2 md:grid-cols-3">
             <div className="relative h-48 md:h-64 rounded-2xl overflow-hidden shadow-md">
               <Image
-                src="/1707415013354.jpeg"
+                src="1707415013354.jpeg"
                 alt="CodeSprouts session"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
@@ -120,7 +120,7 @@ export default function Home() {
             </div>
             <div className="relative h-48 md:h-64 rounded-2xl overflow-hidden shadow-md">
               <Image
-                src="/1713040935462.jpeg"
+                src="1713040935462.jpeg"
                 alt="Kids coding together"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
@@ -128,7 +128,7 @@ export default function Home() {
             </div>
             <div className="relative h-48 md:h-64 rounded-2xl overflow-hidden shadow-md col-span-2 md:col-span-1">
               <Image
-                src="/1719079747026.jpeg"
+                src="1719079747026.jpeg"
                 alt="Learning at CodeSprouts"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
@@ -144,7 +144,7 @@ export default function Home() {
           <div className="grid gap-12 md:grid-cols-2 items-center">
             <div className="relative h-64 md:h-96 rounded-2xl overflow-hidden shadow-lg order-2 md:order-1">
               <Image
-                src="/1740999998069.jpeg"
+                src="1740999998069.jpeg"
                 alt="CodeSprouts community"
                 fill
                 className="object-cover"
