@@ -21,7 +21,7 @@ export default function CodeSproutsCoderDojoPage() {
           </div>
           <div className="relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src="1719079747026.jpeg"
+              src="/1719079747026.jpeg"
               alt="Code Sprouts CoderDojo session"
               fill
               className="object-cover"
@@ -110,7 +110,7 @@ export default function CodeSproutsCoderDojoPage() {
         {/* Photo */}
         <div className="mt-12 relative h-64 rounded-2xl overflow-hidden shadow-lg">
           <Image
-            src="img1.png"
+            src="/img1.png"
             alt="Kids at CoderDojo"
             fill
             className="object-cover"
