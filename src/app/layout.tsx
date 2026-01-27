@@ -13,7 +13,10 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   title: "CodeSprouts - Coding for Kids",
   description: "Community coding clubs and classes for children aged 6-16. Learn to code with fun and creativity!",
-
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
