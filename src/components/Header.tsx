@@ -42,6 +42,14 @@ export default function Header() {
                 </Link>
               </li>
             ))}
+            <li>
+              <Link
+                href="/gaza-hackathon"
+                className="rounded-full bg-emerald-600 px-5 py-2 font-semibold text-white hover:bg-emerald-700 transition-colors"
+              >
+                Support Gaza
+              </Link>
+            </li>
           </ul>
 
           {/* Mobile Menu Button */}
@@ -98,6 +106,15 @@ export default function Header() {
                 </Link>
               </li>
             ))}
+            <li>
+              <Link
+                href="/gaza-hackathon"
+                className="block rounded-full bg-emerald-600 px-5 py-2 text-center font-semibold text-white hover:bg-emerald-700 transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Support Gaza
+              </Link>
+            </li>
           </ul>
         )}
       </nav>

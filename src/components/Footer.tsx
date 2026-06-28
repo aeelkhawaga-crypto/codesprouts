@@ -7,6 +7,7 @@ const navLinks = [
   { href: "/clubs", label: "Clubs" },
   { href: "/classes", label: "Classes" },
   { href: "/contact", label: "Contact" },
+  { href: "/gaza-hackathon", label: "Support Gaza" },
 ];
 
 export default function Footer() {
