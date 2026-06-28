@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import DonateButton from "@/components/DonateButton";
 
 export default function Home() {
   return (
@@ -33,6 +34,41 @@ export default function Home() {
             >
               Contact Us
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Gaza Hackathon Fundraiser Teaser */}
+      <section className="bg-gray-900 text-white">
+        <div className="mx-auto max-w-6xl px-4 py-14">
+          <div className="grid gap-8 md:grid-cols-3 md:items-center">
+            <div className="md:col-span-2">
+              <span className="inline-block rounded-full bg-emerald-500/20 px-4 py-1 text-sm font-semibold uppercase tracking-wide text-emerald-300">
+                We&apos;re Fundraising
+              </span>
+              <h2 className="mt-4 text-3xl font-bold">
+                Supporting the Gaza Youth Tech Hackathon
+              </h2>
+              <p className="mt-4 text-lg leading-relaxed text-gray-300">
+                We&apos;re proudly backing a youth hackathon for young makers in
+                Gaza — for apps, robotics, and Arduino builds. Help us raise{" "}
+                <strong className="text-emerald-400">€5,000</strong> to fund the
+                hardware, internet, mentorship, and prizes that make it possible.
+              </p>
+              <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+                <DonateButton />
+                <Link
+                  href="/gaza-hackathon"
+                  className="inline-flex items-center justify-center rounded-full border-2 border-gray-500 px-8 py-3 text-lg font-semibold text-white transition-colors hover:border-emerald-400 hover:text-emerald-400"
+                >
+                  Learn More
+                </Link>
+              </div>
+            </div>
+            <div className="rounded-2xl bg-white/10 p-8 text-center">
+              <p className="text-5xl font-extrabold text-emerald-400">€5,000</p>
+              <p className="mt-2 text-gray-300">fundraising goal</p>
+            </div>
           </div>
         </div>
       </section>
